@@ -31,7 +31,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: goto-bus-stop/setup-zig@v1
-      - run: zig build test src/add.zig
+      - run: zig build test
   lint:
     runs-on: ubuntu-latest
     steps:
